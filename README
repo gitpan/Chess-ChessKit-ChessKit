@@ -1,0 +1,35 @@
+Chess-ChessKit
+
+In this package,an eg directory is included .
+These programs in eg, serve as tests and/or demonstration
+and are described in the module ChessKit.pm
+
+One bug in the routines chessmovecnt is known at present time:
+the castling is not taken under consideration , precisely not counted.
+That means possibly an error or minus one on the counts.
+It will be fixed later in some future version.
+
+INSTALLATION
+
+To install this module, run the following commands:
+
+    perl Makefile.PL
+    make
+    make test
+    make install
+
+
+Alternatively, to install with Module::Build, you can use the following commands:
+
+    perl Build.PL
+    ./Build
+    ./Build test
+    ./Build install
+
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2005 Charles Minc
+
+This program is free software; you can redistribute it and/or modify it
+under the same terms as Perl itself.
