@@ -7,4 +7,6 @@ Revision history for ChessKit
 
 0.03  Bug in analizmov.pl related with Chess::PGN::Parse
         Normalise date YY/MM/DD and version consistency in header comments
+	
+0.04 Bad ditrib assembly
 

@@ -1,27 +1,27 @@
 ---
 name: Chess-ChessKit-ChessKit
-version: 0.04
+version: 0.05
 author:
   - 'Charles Minc <charles.minc@wanadoo.fr>'
-abstract: The great new Chess::ChessKit::ChessKit!
+abstract: lib/Chess/ChessKit/ChessKit.pm
 license: perl
 resources:
   license: http://dev.perl.org/licenses/
 build_requires:
   Test::More: 0
 provides:
-  Chess::ChessKit::Board:
+  Board:
     file: lib/Chess/ChessKit/Board.pm
-    version: 0.01
-  Chess::ChessKit::ChessKit:
+    version: 1.1
+  Chess::ChessKit:
     file: lib/Chess/ChessKit/ChessKit.pm
-    version: 0.01
-  Chess::ChessKit::Move:
+    version: 0.04
+  Move:
     file: lib/Chess/ChessKit/Move.pm
-    version: 0.01
-  Chess::ChessKit::Trad:
+    version: 1.1
+  Trad:
     file: lib/Chess/ChessKit/Trad.pm
-    version: 0.01
+    version: 1.0
 generated_by: Module::Build version 0.2808
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html
